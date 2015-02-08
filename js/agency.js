@@ -15,12 +15,17 @@ $(function() {
     });
     function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
+        var venueLocation = new google.maps.LatLng(39.534440, -76.360073)
         var mapOptions = {
-          center: new google.maps.LatLng(39.534440, -76.360073),
+          center: venueLocation,
           zoom: 15,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+      		position: venueLocation,
+      		map: map
+  		});
       }
       google.maps.event.addDomListener(window, 'load', initialize);
 });
