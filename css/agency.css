@@ -756,3 +756,7 @@ body {
 .directions{
     margin-top: 1%;
 }
+
+section h3.section-subheading.no-spacing{
+    margin-bottom: 0;
+}
