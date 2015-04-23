@@ -760,3 +760,12 @@ body {
 section h3.section-subheading.no-spacing{
     margin-bottom: 0;
 }
+
+.hotel-info{
+    margin-top: 35px;
+    font-size: 2em;
+}
+
+#hotel-header{
+    margin-bottom: 25px;
+}
