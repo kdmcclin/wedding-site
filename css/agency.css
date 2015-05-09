@@ -176,6 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Satisfy","Helvetica Neue",Helvetica,Arial,cursive;
+    font-weight: bold;
     color: #fed136;
 }
 
@@ -265,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/tylethaback2.png);
+    background-image: url(../img/suburban_gothic2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -768,4 +769,8 @@ section h3.section-subheading.no-spacing{
 
 #hotel-header{
     margin-bottom: 25px;
+}
+
+.rsvp a, .rsvp a:hover, .rsvp a:visited{
+    color: white;
 }
