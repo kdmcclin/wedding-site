@@ -266,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/suburban_gothic2.jpg);
+    background-image: url(../img/tylethaback3.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -773,4 +773,10 @@ section h3.section-subheading.no-spacing{
 
 .rsvp a, .rsvp a:hover, .rsvp a:visited{
     color: white;
+}
+
+@media(max-width:768px) {
+    header {
+        background-image: url(../img/suburban_gothic1.jpg);
+    }
 }
