@@ -266,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/tylethaback3.png);
+    background-image: url(../img/tylethaback4.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -281,7 +281,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    margin-top: 100px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -299,12 +300,12 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 350px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -315,7 +316,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -775,8 +776,8 @@ section h3.section-subheading.no-spacing{
     color: white;
 }
 
-@media(max-width:768px) {
+/*@media(max-width:768px) {
     header {
         background-image: url(../img/suburban_gothic1.jpg);
     }
-}
+}*/
