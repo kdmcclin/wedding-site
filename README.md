@@ -1,5 +1,7 @@
-# Live Version
-Visit the site [here](http://www.tysonandletha.us)
+# Tyson & Letha's Wedding Site
+
+## Visit the Site
+Visit the site [here.](http://www.tysonandletha.us)
 
 ## About This Site
 This site uses [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/) as a base theme, with many modifications made.
